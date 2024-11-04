@@ -64,3 +64,10 @@
 .confirm-button:hover {
   background-color: #0056b3;
 }
+
+.seat-button.booked {
+  background: #f8d7da;
+  color: #6c757d;
+  cursor: not-allowed;
+  opacity: 0.6;
+}

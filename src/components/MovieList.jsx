@@ -12,9 +12,8 @@ const MovieList = () => {
     dispatch(fetchMovies());
   }, [dispatch]);
 
-  // Check if movies is undefined and handle it
   if (!movies) {
-    return <div>Loading...</div>; // Or any loading indicator
+    return <div>Loading...</div>;
   }
 
   return (
